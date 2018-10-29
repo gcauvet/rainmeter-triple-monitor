@@ -1,3 +1,0 @@
-1. MimeSharp & YaraSharp -> Nuget
-2. Solidworks project
-3. Book
