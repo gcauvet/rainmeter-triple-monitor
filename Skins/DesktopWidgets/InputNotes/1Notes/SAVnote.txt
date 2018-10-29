@@ -1,0 +1,7 @@
+
+Instructions
+- Click the OPEN button to open Notepad
+- Type your message as you would naturally
+- You can use ENTER for a new line
+- SAVE and CLOSE the file
+- Click the REFRESH button on this skin

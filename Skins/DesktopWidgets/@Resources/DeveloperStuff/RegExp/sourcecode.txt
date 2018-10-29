@@ -1,0 +1,105 @@
+#include <iostream>
+#include <fstream>
+
+using namespace std;
+
+// this c++ program uses loops to obtain string indexes from webparser, and then create all unique meter sections required to display the string indexes.
+
+int main(){
+
+	ofstream textfile;
+	textfile.open("stringindex_autogen.txt");
+
+
+	textfile << "-------------string indexes----------------" << endl << endl;
+
+	for (int counter = 1; counter <= 23; counter= counter + 1){
+
+		textfile << "[RSS" << counter << "title]";
+		textfile << endl << "Measure = Plugin";
+		textfile << endl << "Plugin = Plugins\\WebParser.dll";
+		textfile << endl << "Url = [RSS]";
+		textfile << endl << "StringIndex =" << counter * 4 - 3;
+		textfile << endl << "Substitute = #Substitute#";
+
+		textfile << endl << endl;
+
+		textfile << "[RSS" << counter << "descript]";
+		textfile << endl << "Measure = Plugin";
+		textfile << endl << "Plugin = Plugins\\WebParser.dll";
+		textfile << endl << "Url = [RSS]";
+		textfile << endl << "StringIndex =" << counter * 4 - 2;
+		textfile << endl << "Substitute = #Substitute#";
+
+		textfile << endl << endl;
+
+		textfile << "[RSS" << counter << "link]";
+		textfile << endl << "Measure = Plugin";
+		textfile << endl << "Plugin = Plugins\\WebParser.dll";
+		textfile << endl << "Url = [RSS]";
+		textfile << endl << "StringIndex =" << counter * 4 - 1;
+		textfile << endl << "Substitute = #Substitute#";
+
+		textfile << endl << endl;
+
+		textfile << "[RSS" << counter << "date]";
+		textfile << endl << "Measure = Plugin";
+		textfile << endl << "Plugin = Plugins\\WebParser.dll";
+		textfile << endl << "Url = [RSS]";
+		textfile << endl << "StringIndex =" << counter * 4;
+		textfile << endl << "Substitute = #Substitute#";
+
+		textfile << endl << endl << ";------" << endl << endl;
+
+	}
+
+		
+	
+	textfile << "-------------meters-----------------" << endl << endl;
+
+	for (int counter = 1; counter <= 23; counter = counter + 1){
+		textfile << endl << "[RSS" << counter << "linkbutton]";
+		textfile << endl << "meter = image";
+		textfile << endl << "x = 0";
+		textfile << endl << "y = 28r";
+		textfile << endl << "h = #clickhovbarH#";
+		textfile << endl << "w = #seplinwidth#";
+		textfile << endl << "solidcolor =0,0,0,1";
+		textfile << endl << "mouseoveraction = [!SetOption #CURRENTSECTION# solidcolor #hoverbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]";
+		textfile << endl << "mouseleaveaction = [!SetOption #CURRENTSECTION# solidcolor 0,0,0,1][!Updatemeter #CURRENTSECTION# ][!Redraw]";
+		textfile << endl << "leftmousedownaction = [!SetOption #CURRENTSECTION# solidcolor #clickbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]";
+		textfile << endl << "leftmouseupaction = [!SetOption #CURRENTSECTION# solidcolor #hoverbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw][\"#eVIEWER#\"  \"[RSS"<< counter << "link]]\"";
+
+		textfile << endl << endl;
+
+		textfile << endl << "[RSS" << counter << "String]";
+		textfile << endl << "Meter = STRING";
+		textfile << endl << "MeasureName = RSS" << counter << "title";
+		textfile << endl << "X = 15";
+		textfile << endl << "Y = #relbartext#";
+		textfile << endl << "FontColor = #txtcolor#";
+		textfile << endl << "FontSize = #txtsize#";
+		textfile << endl << "FontFace = #txtfont#";
+		textfile << endl << "StringEffect = #txteffect#";
+		textfile << endl << "FontEffectColor = #txteffectcolor#";
+		textfile << endl << "AntiAlias = 0";
+		textfile << endl << "Prefix = ""#dotpt#""";
+		textfile << endl << "ClipString = #CPS#";
+		textfile << endl << "ClipStringW = #CPSW#";
+		textfile << endl << "ClipStringH = #CPSH#";
+
+		textfile << endl << endl << ";------" << endl << endl;
+
+	}
+
+	
+	textfile.close();
+
+
+	cout << "File created, saved to root directory of this program as\nstringindex_autogen.txt";
+	int a;
+	cin >> a;
+
+
+	return 0;
+}

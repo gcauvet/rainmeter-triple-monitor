@@ -1,0 +1,7 @@
+nircmd for ejecting optical discs
+http://www.howtogeek.com/howto/windows-vista/create-a-shortcut-or-hotkey-to-eject-the-cddvd-drive/
+http://www.nirsoft.net/utils/nircmd.html
+
+
+USB_Disk_Eject for ejecting USB drives
+http://jsmorley.deviantart.com/art/USBDrive-273453859

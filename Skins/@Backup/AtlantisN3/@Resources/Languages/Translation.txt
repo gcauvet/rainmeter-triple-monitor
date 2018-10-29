@@ -1,0 +1,8 @@
+Translation: my translations are not the bests and I know that. I have few knowledges in others languages than mine (French). I just want to propose an other option than the eternal "English". Keep in mind that I can't translate myself all languages. You can help me if you want better translation. You can use English, French, Spanish or Serbian language files as basis and send me via mail (ask it via PM) the "good" translations for the others. You can too send me translation of a language not listed and I'll add it to the next suites. Keep in mind too that I use the same language files for all my suites. So, if you take the time to translate with your language, this one will be available for all my future suites. Please, if you send me translation, keep the shape and the "keywords" of my files. On the other case, I'll not able to use it.   
+
+As I said, I using "keywords". Most of them are abbreviations. Why not complete words ? Well, less letters=less memory :-). 
+
+How to translate ? Very easy. Just remplace the English (or French or another) world, by the one corresponding to your language. Let the keyword and the "=". Replace only the world(s) after. EX:
+U=Used -------> U=Utilisé 
+
+Thanks a lot.

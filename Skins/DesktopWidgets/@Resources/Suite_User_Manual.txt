@@ -1,0 +1,592 @@
+Suite User Manual for DesktopWidgets Suite.
+Author: Ragingwasabi
+Last Updated: 26/01/2018
+
+
+Original download page for DesktopWidgets Suite:
+https://ragingwasabi.deviantart.com/art/DesktopWidgets-1-0-727936424
+
+
+Official download page for Rainmeter:
+http://rainmeter.net/
+
+
+Getting started with Rainmeter:
+http://docs.rainmeter.net/manual/getting-started
+
+
+Annotated screenshots: Understand this skin in 5 minutes!
+https://onedrive.live.com/?cid=ee70cc84f483296f&id=EE70CC84F483296F%211067&ithint=folder,png&authkey=!AM79ZZrzRML137o
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------|| Introduction
+
+DesktopWidgets Suite is a Rainmeter skin suite designed to add more functionality to the 
+plain old desktop.
+
+Be sure to check on the deviant art page every now and then, for any updates to the skin. 
+To update but keep your current layout; simply install the new package, but select the 
+option to not install the new layout.
+To play safe, you can first make a backup of your layout by saving it under another name.
+
+This manual will be actively updated as time goes.
+
+If you need to quickly find info in this manual, press "Ctrl" and "f" at the same 
+time while in this manual, then type a keyword and press enter.
+(You have to place the cursor at the top of this document to searc h the whole thing)
+
+This whole skin is copyright free. Take whatever you want, as long as you give credit :)
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------|| Modifications/Further customisation/Tooltips
+
+This skin suite uses a stylesheet for formatting options which are used multiple
+times throughtout the suite. If you need to change formatting options such as 
+font size, font type, text colour, line thickness, line colours, etc, you can edit 
+the stylesheet once, refresh rainmeter, and have the changes propagate throughout 
+every skin in the entire suite. 
+Note: not everything is changeable through the stylesheet. 
+
+The style sheet is called BVstylesheet.inc.
+It is located in the @resources folder.
+
+You can turn tooltips on and off by going to the BVsettings.inc file stored
+in the @resources folder
+turn OFF tooltips: ToolTipHidden=1
+turn ON tooltips:  ToolTipHidden=0
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------|| Skins Details
+
+-----------------------------------------------------------------------------------------------------------------------------------------BBC NEWS
+
+Shows world news from the BBC site, right on your desktop
+
+The skin parses a maximum of 24 headlines from the RSS feed. How ever it only shows 15 in order 
+to fit on a standard 1080p display setup along with all other surrounding skins. If you want 
+more headlines to show, go into the .ini file, and for each extra headline, change the property 
+hidden=1 to hidden=0 for its meter section. 
+(The extra sections are already there, they are simply set to be hidden).
+
+String index sections and meter sections were very long and repetitive with an obvious 
+pattern. They were thus easily generated using a simple looping c++ program. The source 
+code can be found in the @resources folder in the sub folder named RSSparsetools. You can 
+edit, recompile the code, run it, and then copy-paste the sections from the auto-generated text 
+file to replace the existing sections in the .ini file to customise the meters however you want. 
+Of course you could edit the sections manually too, but it would take quite a while.
+
+There is an OPEN button that opens up the BBC page in your browser.
+Each individual headline can also be clicked to open up its corresponding news article in your 
+default browser.
+
+Another button instantly refreshes the skin.
+
+It auto refreshes every 10 minutes.
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------CPU
+
+Shows history of CPU activity characteristics.
+
+Additional information will appear when you hover your cursor over it. 
+Other wise, measures are disabled and meters hidden.
+
+The speed meter shows the maximum clock speed of the CPU.
+
+The peak use meter shows the highest recorded usage since the last refresh.
+
+The avg usage meter shows the mean of the last 20 values of the 
+cpu usage.
+
+The use meter shows real time measurements of the cpu usage.
+
+The graph and network measures updates once a second. 
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------FOUNTAIN OF COLORS
+
+The Fountain of Colors skin is an audio spectrum analyser for your desktop. 
+It provides a visual interpretation of all the audio your computer is outputting.
+Each of the 152 bars represents the overall amplitude (loudness) of a small 
+range of frequencies.
+
+The entire frequency range of this spectrum analyser is 20-18000Hz
+(a bit more than the frequency hearing range of the average adult).
+ 
+This range is distributed across bars in a logarithmic scale, that is, 
+each bar is not necessarily representing a 118Hz range.
+Reason is simply to match with our own logarithmic perception of sound frequency.
+
+The bars change colour randomly, with the higher peaking bars having a noticeably 
+different colour tone from the other bars.
+
+When there is no audio, the bars disappear leaving only the baseline.
+
+Read FOUNTAIN OF COLORS CONTROLS for instructions on positioning this skin.
+
+
+Issues:
+If you find that all your sounds are producing really short bars or even 
+not appearing, you can:
+
+-Increase your media player's volume
+
+OR
+
+-Right click the visualiser skin
+-Click edit variables
+-Look for a line that says:
+ sensitivity=...
+-Change the number to something a bit higher
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------FOUNTAIN OF COLORS CONTROLS
+
+Simple, quick access control interface for media playback
+
+Includes meters that display the track title, current time position 
+and duration.
+
+On the far right is a clickable segmented volume controller bar. Each segment gives 
+a 5 percent change in volume.
+
+In the middle are a set of features for media playback control. On the left is a
+meter showing timeposition/Duration of the currently playing media.
+The buttons from left to right are:
+previous, pause, play, next, open media player's window.
+
+
+On the far left is a toggle button for cycling through your system's output devices.
+When you click it, audio will be routed to the next available device.
+NOTE: Changing devices stops the Fountain of Colors spectrum analyser from 
+picking up audio, since it is set to only analyse audio outputting to the default 
+audio device.
+
+Default audio device in Windows can be changed by using "Manage Audio Devices" 
+from the Windows Start menu.
+
+
+Default media player:
+The controls work with Windows Media Player by default. 
+To change the media player,
+-Go to the .ini file
+-Near the top you should see:
+   [MeasureNowPlayingTrack]
+
+-Look for the line that says:
+   PlayerName=...
+
+-Change ... to a compatible player you use. 
+-This link gives more information on accepted players.
+ http://docs.rainmeter.net/manual/plugins/nowplaying
+
+
+Details on positioning and dynamic size:
+-Notice that when there is no media playing in WMP, the song title disappears and
+ the skin shrinks, then expands again to accomodate the title when a new song starts 
+ playing. As well as changing size, it also changes the absolute position of the 
+ FOUNTAIN OF COLORS analyser on the desktop.
+
+-Thus, this Fountain of Colors Controls skin (media controller) determines where the 
+ Fountain of Colors skin (spectrum analyser) will appear. 
+ The analyser will ALWAYS appear above the media controller. 
+ To position both, you have to move the media controller to the required location, 
+ then refresh rainmeter. 
+ The analyser will automatically appear on top.
+
+
+Issues:
+
+1)
+There was a bug where the nowplaying measure sometimes did not update properly.
+If a song was playing in Windows Media Player, which was then closed, the 
+measure would correctly clear out, and the title and position/duration meters
+would correctly disappear. 
+
+However, upon opening another song, there was about 
+a 50% chance the meters and measures would not update, remaining blank. When 
+refreshed, then it showed up normally. I have not tested the skin with other 
+media players, so I don't if the problem is windows media player, my computer 
+only or the plugin.
+
+I have come up with a workaround for this bug. A separate invisible skin called 
+"glitchworkaround" (in the Fountain of Colors Controls folder) measures whether 
+the WMP process is running. If it is, it will refresh the "Fountain of Colors 
+Controls" once. 
+
+If your player is not WMP and you also have this problem have this 
+problem, you have to go into the glitch workaround skin and change to the correct 
+media player's process name.
+
+To get the name of the process: 
+-launch the player
+-right click the taskbar
+-click Start Task Manager
+-click the Processes tab
+-Now look for the process's name (it should look similar to the proper name)
+
+2)
+After clicking the toggle button for changing output device, sound may sometimes
+no longer work. This can usually be fixed by refreshing Rainmeter.
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------GOOGLE SEARCH BAR 
+
+Google search right from your desktop!
+
+Usage Instructions:
+-Click the bar anywhere
+-Type your query
+-Press ENTER on the keyboard.
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------HDD
+
+Shows history of HDD activity characteristics and also the name of your drive
+
+R+W stands for Read + Write. It is the total of the values for Read and Write.
+
+Avg is short for average.
+The avg meters all show the mean of the last 30 values of their respective measures.
+
+Additional information will appear when you hover your cursor over it. 
+Other wise, measures are disabled and meters hidden.
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------INPUT NOTES BETTER
+
+Write notes and reminders for youself!
+
+You have to load this skin yourself.
+This skin is harder to use than the Windows sticky notes, so I don't even use it.
+
+There are multiple copies of this same skin to allow multiple loaded notes.
+
+The bottom line will move allowing the whole skin to grow/shrink and accomodate 
+more/less text. It will stop expanding around 3/4 of the screen height
+
+Instructions for using
+- Click the OPEN button to open Notepad
+- Type your message as you would naturally
+- You can use ENTER for a new line
+- SAVE and CLOSE the file
+- Click the REFRESH button on this skin
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------INTERNET RADIO LIST/INTERNET RADIO STREAM SERVICES
+
+This skin opens a list of radio streaming services. When you click on one, it 
+will open up the stream in Windows Media Player (as long as you have designated 
+windows media player to open .m3u files. This is already the Windows default setting 
+unless you have changed it).
+
+Some of these streams won't start playing until you click the position/navigation 
+bar on the windows Media Player window.
+Possibly having a common cause, the same streams also will not respond when the 
+play/pause button is clicked, while others normally would.
+Some streams will stutter a bit at the beginning when started. This always goes 
+away for me after about a minute.
+
+Instructions for adding more stations:
+-To add your own stream channels, you have to find the source for them. This is not 
+ always easy. Good news is this Wikipedia page told me everything I needed to know.
+     http://en.wikipedia.org/wiki/M3U
+ Have a read, and if you are still lost, feel free to ask me through Deviant Art.
+ Sometimes, a radio channel's website will allow you to download the .m3u file 
+ directly.
+ Mostly I had to dig into the site's source code and use guess and check to find
+ the stream link, then copy-paste the link into my own .m3u file.
+ 
+-When you have the .m3u file, go to,
+ Documents > Rainmeter > Skins > DesktopWidgets > @Resources > RadioStreams
+ and drop the m3u file there.
+
+-Open the .ini file of the RadioList skin, scroll to the very end and simply copy-paste 
+ the entire [BUTTONstream13], [OPENSite13] and [Stream13] sections to duplicate them. 
+
+-Rename the sections to whatever you want. eg. [BUTTONstream14], [OPENSite14] and [Stream14]
+ All this does is make the names different so Rainmeter can do its thing properly.
+ 
+-There should be a piece of the code you just copied that looks like this 
+ ["#@#RadioStreams\ANYFILENAME.m3u"]
+ Replace 'ANYFILENAME' with the name of your .m3u file.
+ 
+-Another piece of code looks like this 
+ ["#eVIEWER#" "http://www.sbs.com.au/popasia/"]
+ Replace the existing link with a link to the webpage of your new radio stream.
+ This link simply gives you a convenient way to quickly access the site. It does 
+ not affect the streaming operation in any way.
+
+-Now you have to expand the skin to fit that extra list option you just inserted.
+ Scroll to the top, look for [variables]
+ Then look for, 'maxheight=number'
+ Add 20 (for each line you added) to what ever the number is and replace it.
+
+-Now save the .ini file and refresh the whole suite.
+
+Issues:
+If the skin is appearing without background, or underneath other skins:
+-Right click
+-Click manage skin
+-Change load order to a larger number. eg 10. If problem persists, 
+ try a larger number. The skin with the highest load order appears on top.
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------MAINTENANCE TOOLS
+
+A skin that provides a quick access menu for some usually further to reach 
+but very handy windows administrations functions.
+
+This skin requires your system locality short string to allow the 
+Windows Update button to work. It reads a windows registry entry, obtains a hex code
+then using a 'table' it translates the code into its associated string. With
+about 128 languages supported, most people should be fine.
+
+Issues:
+1)
+If clicking the Windows Update does not bring you to the update window, your 
+language is not included in the table. You can quickly add your own system locality.
+ -First find your system locality short string (for example: en-au, en-us, 
+  it-it, ja, ko etc)
+ -Open the Maintenance Tools .ini file, scroll all the way down to the section
+  [windupdate]
+ -Look for the line starting with 
+  leftmouseupaction=....
+ -On that line, you will find 
+  [TranslateSystLangCode]
+ -Replace it with your system locality short string. It should end up like this
+  ...\Indexed\Settings\en-us\AAA_SystemSettings_MusUpdate...
+
+2)
+If the skin is appearing without background, or underneath other skins:
+-right click
+-click manage skin
+-change load order to a larger number. eg 10. if problem persists, 
+ try a larger number. The skin with the highest load order appears on top.
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------NETWORK INFORMATION
+
+Shows addressing and network related information about your system.
+
+There is a button that opens up the Windows Network and Sharing Center.
+
+Another button instantly refreshes the skin.
+
+The skin will automatically select the network adaptor that is currently 
+active.
+
+It includes a functioning measure that tests whether your LAN and WAN 
+connection are online or offline.
+
+The ping measure updates every 5 seconds and displays average of last 5 
+readings for a more likely representation of your ping. Rainmeter only 
+sends one ping packet and waits for it to return. Of course any thing can 
+happen to this single packet during its journey through the vast entirety 
+of the internet, making it unreliable. Thus, other ping tests send 
+multiple packets at once and takes the average result. Rainmeter can not 
+send  multiple packets, so an average over a few seconds will have to do. 
+
+The rest of the skin refreshes as below:
+   -1 (once): host, user, os name, os bits
+              since any changes to these properties require a restart 
+              or refresh of the computer to register
+   1 seconds: wan status, lan status
+  30 seconds: wan ip, lan ip, mask, gateway, dns, adaptor
+   5 seconds: ping
+
+
+The regular spikes with 30 second gaps that you see in the network traffic 
+skins are caused by this network info skin updating its WAN IP meter.
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------NETWORK DOWNLOAD/UPLOAD
+
+Both shows stats on the network traffic in the their respective streams.
+
+Clicking either one of the refresh buttons will clear the network statistics 
+for both network traffic skins.
+The last date the buttons were clicked is recorded and displayed in the 
+Last Reset meter.
+
+The total Up/Dl meter shows total data accumulated from upload/download traffic
+since the last refresh.
+
+The peak Up/Dl meter shows the highest recorded upload/download speed since 
+the last refresh.
+
+The average Up/Dl meter shows the average of the last 30 values of the 
+upload/download speed.
+
+The current Up/Dl shows real time measurements of upload/download speed.
+
+The graph and network measures update once a second. Rainmeter's method of 
+getting/calculating the network stats requires the 1 measure per second rate, 
+as otherwise the value we get will be inaccurate.
+
+The regular spikes with 30 second gaps that you see in the network download skin 
+are caused by the network info skin updating its WAN IP meter. The data downloaded 
+is very small, and only the graph's auto scaling function causes the spikes to look 
+large.
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------RAM
+
+Shows history of RAM usage characteristics
+
+The peak meter shows the highest recorded usage since the last refresh.
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------REMOVABLE/PORTABLE DRIVES
+
+These skins are slightly smaller than the HDD skins and are meant for use with portable drives.
+
+They each have an OPEN button that opens the root directory of their target 
+drive.
+
+
+They each have an eject button that safely ejects the drive. If if ejecting fails, a 
+a notification appears warning you so.
+
+The programs I used for the drive ejection function are:
+nircmd for ejecting optical discs
+- http://www.howtogeek.com/howto/windows-vista/create-a-shortcut-or-hotkey-to-eject-the-cddvd-drive/
+- http://www.nirsoft.net/utils/nircmd.html
+USB_Disk_Eject for ejecting USB drives
+- http://jsmorley.deviantart.com/art/USBDrive-273453859
+
+
+They hide by default, with all their measures disabled, and only reactivate 
+when the drive is plugged in again.
+
+All the Removeable Drives Skins are linked together by their positions. They
+will all appear below the first skin for drive (F:). Thus, when you want to 
+position the skins, just move the (F:) skin to where you want, then refresh
+rainmeter and the other loaded Removeable Drives skins will position themselves 
+below.
+Each skin references the skin immediately below it, and moves them up or down 
+depending on whether it is hidden or invisible.
+
+The skins are in alphabetical order.
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------RM GLOBAL CONTROLS
+
+Controls all other skins in the DesktopWidgets suite. It is not meant to affect itself,
+unless Refresh All or Activate All button is clicked. Clicking 
+either of those 2 buttons will cause the skin to close due it being 
+refreshed/reactivated.
+
+
+It replaces many of the Rainmeter notification menu items.
+On my dual monitor setup, it is located right above my start button.
+For most people it should also appear above their start button.
+
+Edge Snap and draggable options are truly toggle functions. 
+e.g. if half your skins are draggable and half are not, then clicking
+Draggable Toggle All will not lock them all in place (or unlock).
+Therefore, you should leave all of your skins on draggable and then click
+Draggable Toggle All to lock them. click again when you want to unlock them all.
+
+Make sure you have set the DISABLE DRAGGABLE option to off in the 
+manage rainmeter > settings window.
+
+For ACTIVATE ALL to work, you must name a layout (with all the skins 
+you need, including MasterSwitch and invisible skins such as StartUpSound 
+and the glitchworkaround skin) as "mylayout".
+
+This skin hides by default and appears when you hover over it.
+
+Issues:
+If the skin is appearing without background, or underneath other skins:
+-Right click
+-Click manage skin
+-Change load order to a larger number. eg 10. If problem persists, 
+ try a larger number. The skin with the highest load order appears on top.
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------StartUpSound
+
+This invisible skin plays sounds for 2 events: 
+ 1) When Rainmeter is refreshed 
+    (including when your computer boots up to the destop or when you manually
+    refresh Rainmeter)
+ 2) When you deactivate your layout. 
+    (thus, you need to include this skin in your layout if you want the 
+    deactivation sound)
+
+By default, a refresh plays the Windows cityscape logon sound, while a 
+deactivation plays the Windows cityscape theme logoff sound.
+
+To change the sound effect played:
+ -Save your sound in .wav format (if it isn't already)
+ -Drop the file into the @Resources folder
+ -Open the StartUpSound .ini file
+ -Look for the lines
+  OnRefreshAction=[Play "#@#LogonSoundCityscape.wav"]
+  OnCloseAction=[Play "#@#LogoffSoundCityscape.wav"]
+ -replace LogonSoundCityscape or LogoffSoundCityscape 
+  with the name of your .wav file
+
+This skin is also affected by the RM Global Controls skin.
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------SWAP
+
+Shows history of SWAP usage characteristics. Your SWAP file is also known as 
+virtual RAM or a paging file. It is space on your harddrive that is allocated 
+to 'extending' the capacity of your physical RAM.
+
+The peak meter shows the highest recorded usage since the last refresh.
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------TIMEWEATHER
+
+A time, date and weather widget. Uses The Weather Channel RSS feed to get data.
+
+There is a button that opens up "The Weather Channel" website to display
+more information about weather in your location.
+
+Another button instantly refreshes the skin.
+
+It auto refreshes every 10 minutes.
+
+You have to go into the code yourself to change your location code and 
+unit measurement if you need.
+
+
+To change location:
+1) Go to https://weather.com
+2) The website should automatically use your current location, if it does not, then find it using the search
+3) Look at the URL address bar. You should see something like 
+   https://weather.com/en-AU/weather/today/l/xxxxxxxx:1:AS
+   The 8-letter code xxxxxxxx should be your weather location code.
+
+
+To change units of measurements:
+Units of measurement: m for metric   (celcius, km)
+		      f for imperial (fahrenheit, miles)
+
+
+Date and time are based on your system clock.
+
+Location is determined from the location code you entered.
+
+Temperature is in the format: current [low - high]
+
+Suncycle shows the sunrise and sunset times
+
+Condition is a qualitative description of the current weather (not a forecast).
+
+Wind Velocity, Humidity and Air Pressure are all current data (not a forecast).
+
+Chance of rain is split into daytime and nighttime chance. (forecasted data)
+
+Of course, since the skin refreshes only every 10 minutes, "current" data are not accurate to the second. 
+However, you will find that the RSS feed itself only updates every few minutes anyway.
+
+
+Issues:
+Some locations seem to not have all the information (these meters will show "updating..."). 
+Nothing can be done at this point except use a more famous nearby location.
+

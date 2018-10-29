@@ -1,0 +1,5 @@
+The dynamic positioning is extremely complicated and laborious to set up. 
+
+To propagate changes through all removeable drives skins, just copy paste only the differences in the code.
+
+Do NOT delete all skins except first one and then duplicate it. dynamic positioning will NOT work.

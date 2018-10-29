@@ -1,0 +1,1430 @@
+-------------string indexes----------------
+
+[RSS1title]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =1
+Substitute = #Substitute#
+
+[RSS1descript]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =2
+Substitute = #Substitute#
+
+[RSS1link]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =3
+Substitute = #Substitute#
+
+[RSS1date]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =4
+Substitute = #Substitute#
+
+;------
+
+[RSS2title]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =5
+Substitute = #Substitute#
+
+[RSS2descript]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =6
+Substitute = #Substitute#
+
+[RSS2link]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =7
+Substitute = #Substitute#
+
+[RSS2date]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =8
+Substitute = #Substitute#
+
+;------
+
+[RSS3title]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =9
+Substitute = #Substitute#
+
+[RSS3descript]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =10
+Substitute = #Substitute#
+
+[RSS3link]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =11
+Substitute = #Substitute#
+
+[RSS3date]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =12
+Substitute = #Substitute#
+
+;------
+
+[RSS4title]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =13
+Substitute = #Substitute#
+
+[RSS4descript]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =14
+Substitute = #Substitute#
+
+[RSS4link]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =15
+Substitute = #Substitute#
+
+[RSS4date]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =16
+Substitute = #Substitute#
+
+;------
+
+[RSS5title]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =17
+Substitute = #Substitute#
+
+[RSS5descript]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =18
+Substitute = #Substitute#
+
+[RSS5link]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =19
+Substitute = #Substitute#
+
+[RSS5date]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =20
+Substitute = #Substitute#
+
+;------
+
+[RSS6title]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =21
+Substitute = #Substitute#
+
+[RSS6descript]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =22
+Substitute = #Substitute#
+
+[RSS6link]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =23
+Substitute = #Substitute#
+
+[RSS6date]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =24
+Substitute = #Substitute#
+
+;------
+
+[RSS7title]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =25
+Substitute = #Substitute#
+
+[RSS7descript]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =26
+Substitute = #Substitute#
+
+[RSS7link]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =27
+Substitute = #Substitute#
+
+[RSS7date]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =28
+Substitute = #Substitute#
+
+;------
+
+[RSS8title]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =29
+Substitute = #Substitute#
+
+[RSS8descript]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =30
+Substitute = #Substitute#
+
+[RSS8link]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =31
+Substitute = #Substitute#
+
+[RSS8date]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =32
+Substitute = #Substitute#
+
+;------
+
+[RSS9title]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =33
+Substitute = #Substitute#
+
+[RSS9descript]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =34
+Substitute = #Substitute#
+
+[RSS9link]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =35
+Substitute = #Substitute#
+
+[RSS9date]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =36
+Substitute = #Substitute#
+
+;------
+
+[RSS10title]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =37
+Substitute = #Substitute#
+
+[RSS10descript]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =38
+Substitute = #Substitute#
+
+[RSS10link]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =39
+Substitute = #Substitute#
+
+[RSS10date]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =40
+Substitute = #Substitute#
+
+;------
+
+[RSS11title]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =41
+Substitute = #Substitute#
+
+[RSS11descript]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =42
+Substitute = #Substitute#
+
+[RSS11link]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =43
+Substitute = #Substitute#
+
+[RSS11date]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =44
+Substitute = #Substitute#
+
+;------
+
+[RSS12title]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =45
+Substitute = #Substitute#
+
+[RSS12descript]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =46
+Substitute = #Substitute#
+
+[RSS12link]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =47
+Substitute = #Substitute#
+
+[RSS12date]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =48
+Substitute = #Substitute#
+
+;------
+
+[RSS13title]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =49
+Substitute = #Substitute#
+
+[RSS13descript]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =50
+Substitute = #Substitute#
+
+[RSS13link]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =51
+Substitute = #Substitute#
+
+[RSS13date]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =52
+Substitute = #Substitute#
+
+;------
+
+[RSS14title]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =53
+Substitute = #Substitute#
+
+[RSS14descript]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =54
+Substitute = #Substitute#
+
+[RSS14link]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =55
+Substitute = #Substitute#
+
+[RSS14date]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =56
+Substitute = #Substitute#
+
+;------
+
+[RSS15title]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =57
+Substitute = #Substitute#
+
+[RSS15descript]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =58
+Substitute = #Substitute#
+
+[RSS15link]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =59
+Substitute = #Substitute#
+
+[RSS15date]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =60
+Substitute = #Substitute#
+
+;------
+
+[RSS16title]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =61
+Substitute = #Substitute#
+
+[RSS16descript]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =62
+Substitute = #Substitute#
+
+[RSS16link]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =63
+Substitute = #Substitute#
+
+[RSS16date]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =64
+Substitute = #Substitute#
+
+;------
+
+[RSS17title]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =65
+Substitute = #Substitute#
+
+[RSS17descript]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =66
+Substitute = #Substitute#
+
+[RSS17link]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =67
+Substitute = #Substitute#
+
+[RSS17date]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =68
+Substitute = #Substitute#
+
+;------
+
+[RSS18title]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =69
+Substitute = #Substitute#
+
+[RSS18descript]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =70
+Substitute = #Substitute#
+
+[RSS18link]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =71
+Substitute = #Substitute#
+
+[RSS18date]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =72
+Substitute = #Substitute#
+
+;------
+
+[RSS19title]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =73
+Substitute = #Substitute#
+
+[RSS19descript]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =74
+Substitute = #Substitute#
+
+[RSS19link]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =75
+Substitute = #Substitute#
+
+[RSS19date]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =76
+Substitute = #Substitute#
+
+;------
+
+[RSS20title]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =77
+Substitute = #Substitute#
+
+[RSS20descript]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =78
+Substitute = #Substitute#
+
+[RSS20link]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =79
+Substitute = #Substitute#
+
+[RSS20date]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =80
+Substitute = #Substitute#
+
+;------
+
+[RSS21title]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =81
+Substitute = #Substitute#
+
+[RSS21descript]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =82
+Substitute = #Substitute#
+
+[RSS21link]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =83
+Substitute = #Substitute#
+
+[RSS21date]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =84
+Substitute = #Substitute#
+
+;------
+
+[RSS22title]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =85
+Substitute = #Substitute#
+
+[RSS22descript]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =86
+Substitute = #Substitute#
+
+[RSS22link]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =87
+Substitute = #Substitute#
+
+[RSS22date]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =88
+Substitute = #Substitute#
+
+;------
+
+[RSS23title]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =89
+Substitute = #Substitute#
+
+[RSS23descript]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =90
+Substitute = #Substitute#
+
+[RSS23link]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =91
+Substitute = #Substitute#
+
+[RSS23date]
+Measure = Plugin
+Plugin = Plugins\WebParser.dll
+Url = [RSS]
+StringIndex =92
+Substitute = #Substitute#
+
+;------
+
+-------------meters-----------------
+
+
+[RSS1linkbutton]
+meter = image
+x = 0
+y = 28r
+h = #clickhovbarH#
+w = #seplinwidth#
+solidcolor =0,0,0,1
+mouseoveraction = [!SetOption #CURRENTSECTION# solidcolor #hoverbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]
+mouseleaveaction = [!SetOption #CURRENTSECTION# solidcolor 0,0,0,1][!Updatemeter #CURRENTSECTION# ][!Redraw]
+leftmousedownaction = [!SetOption #CURRENTSECTION# solidcolor #clickbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]
+leftmouseupaction = [!SetOption #CURRENTSECTION# solidcolor #hoverbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]["#eVIEWER#"  "[RSS1link]]"
+
+
+[RSS1String]
+Meter = STRING
+MeasureName = RSS1title
+X = 15
+Y = #relbartext#
+FontColor = #txtcolor#
+FontSize = #txtsize#
+FontFace = #txtfont#
+StringEffect = #txteffect#
+FontEffectColor = #txteffectcolor#
+AntiAlias = 0
+Prefix = #dotpt#
+ClipString = #CPS#
+ClipStringW = #CPSW#
+ClipStringH = #CPSH#
+
+;------
+
+
+[RSS2linkbutton]
+meter = image
+x = 0
+y = 28r
+h = #clickhovbarH#
+w = #seplinwidth#
+solidcolor =0,0,0,1
+mouseoveraction = [!SetOption #CURRENTSECTION# solidcolor #hoverbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]
+mouseleaveaction = [!SetOption #CURRENTSECTION# solidcolor 0,0,0,1][!Updatemeter #CURRENTSECTION# ][!Redraw]
+leftmousedownaction = [!SetOption #CURRENTSECTION# solidcolor #clickbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]
+leftmouseupaction = [!SetOption #CURRENTSECTION# solidcolor #hoverbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]["#eVIEWER#"  "[RSS2link]]"
+
+
+[RSS2String]
+Meter = STRING
+MeasureName = RSS2title
+X = 15
+Y = #relbartext#
+FontColor = #txtcolor#
+FontSize = #txtsize#
+FontFace = #txtfont#
+StringEffect = #txteffect#
+FontEffectColor = #txteffectcolor#
+AntiAlias = 0
+Prefix = #dotpt#
+ClipString = #CPS#
+ClipStringW = #CPSW#
+ClipStringH = #CPSH#
+
+;------
+
+
+[RSS3linkbutton]
+meter = image
+x = 0
+y = 28r
+h = #clickhovbarH#
+w = #seplinwidth#
+solidcolor =0,0,0,1
+mouseoveraction = [!SetOption #CURRENTSECTION# solidcolor #hoverbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]
+mouseleaveaction = [!SetOption #CURRENTSECTION# solidcolor 0,0,0,1][!Updatemeter #CURRENTSECTION# ][!Redraw]
+leftmousedownaction = [!SetOption #CURRENTSECTION# solidcolor #clickbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]
+leftmouseupaction = [!SetOption #CURRENTSECTION# solidcolor #hoverbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]["#eVIEWER#"  "[RSS3link]]"
+
+
+[RSS3String]
+Meter = STRING
+MeasureName = RSS3title
+X = 15
+Y = #relbartext#
+FontColor = #txtcolor#
+FontSize = #txtsize#
+FontFace = #txtfont#
+StringEffect = #txteffect#
+FontEffectColor = #txteffectcolor#
+AntiAlias = 0
+Prefix = #dotpt#
+ClipString = #CPS#
+ClipStringW = #CPSW#
+ClipStringH = #CPSH#
+
+;------
+
+
+[RSS4linkbutton]
+meter = image
+x = 0
+y = 28r
+h = #clickhovbarH#
+w = #seplinwidth#
+solidcolor =0,0,0,1
+mouseoveraction = [!SetOption #CURRENTSECTION# solidcolor #hoverbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]
+mouseleaveaction = [!SetOption #CURRENTSECTION# solidcolor 0,0,0,1][!Updatemeter #CURRENTSECTION# ][!Redraw]
+leftmousedownaction = [!SetOption #CURRENTSECTION# solidcolor #clickbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]
+leftmouseupaction = [!SetOption #CURRENTSECTION# solidcolor #hoverbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]["#eVIEWER#"  "[RSS4link]]"
+
+
+[RSS4String]
+Meter = STRING
+MeasureName = RSS4title
+X = 15
+Y = #relbartext#
+FontColor = #txtcolor#
+FontSize = #txtsize#
+FontFace = #txtfont#
+StringEffect = #txteffect#
+FontEffectColor = #txteffectcolor#
+AntiAlias = 0
+Prefix = #dotpt#
+ClipString = #CPS#
+ClipStringW = #CPSW#
+ClipStringH = #CPSH#
+
+;------
+
+
+[RSS5linkbutton]
+meter = image
+x = 0
+y = 28r
+h = #clickhovbarH#
+w = #seplinwidth#
+solidcolor =0,0,0,1
+mouseoveraction = [!SetOption #CURRENTSECTION# solidcolor #hoverbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]
+mouseleaveaction = [!SetOption #CURRENTSECTION# solidcolor 0,0,0,1][!Updatemeter #CURRENTSECTION# ][!Redraw]
+leftmousedownaction = [!SetOption #CURRENTSECTION# solidcolor #clickbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]
+leftmouseupaction = [!SetOption #CURRENTSECTION# solidcolor #hoverbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]["#eVIEWER#"  "[RSS5link]]"
+
+
+[RSS5String]
+Meter = STRING
+MeasureName = RSS5title
+X = 15
+Y = #relbartext#
+FontColor = #txtcolor#
+FontSize = #txtsize#
+FontFace = #txtfont#
+StringEffect = #txteffect#
+FontEffectColor = #txteffectcolor#
+AntiAlias = 0
+Prefix = #dotpt#
+ClipString = #CPS#
+ClipStringW = #CPSW#
+ClipStringH = #CPSH#
+
+;------
+
+
+[RSS6linkbutton]
+meter = image
+x = 0
+y = 28r
+h = #clickhovbarH#
+w = #seplinwidth#
+solidcolor =0,0,0,1
+mouseoveraction = [!SetOption #CURRENTSECTION# solidcolor #hoverbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]
+mouseleaveaction = [!SetOption #CURRENTSECTION# solidcolor 0,0,0,1][!Updatemeter #CURRENTSECTION# ][!Redraw]
+leftmousedownaction = [!SetOption #CURRENTSECTION# solidcolor #clickbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]
+leftmouseupaction = [!SetOption #CURRENTSECTION# solidcolor #hoverbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]["#eVIEWER#"  "[RSS6link]]"
+
+
+[RSS6String]
+Meter = STRING
+MeasureName = RSS6title
+X = 15
+Y = #relbartext#
+FontColor = #txtcolor#
+FontSize = #txtsize#
+FontFace = #txtfont#
+StringEffect = #txteffect#
+FontEffectColor = #txteffectcolor#
+AntiAlias = 0
+Prefix = #dotpt#
+ClipString = #CPS#
+ClipStringW = #CPSW#
+ClipStringH = #CPSH#
+
+;------
+
+
+[RSS7linkbutton]
+meter = image
+x = 0
+y = 28r
+h = #clickhovbarH#
+w = #seplinwidth#
+solidcolor =0,0,0,1
+mouseoveraction = [!SetOption #CURRENTSECTION# solidcolor #hoverbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]
+mouseleaveaction = [!SetOption #CURRENTSECTION# solidcolor 0,0,0,1][!Updatemeter #CURRENTSECTION# ][!Redraw]
+leftmousedownaction = [!SetOption #CURRENTSECTION# solidcolor #clickbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]
+leftmouseupaction = [!SetOption #CURRENTSECTION# solidcolor #hoverbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]["#eVIEWER#"  "[RSS7link]]"
+
+
+[RSS7String]
+Meter = STRING
+MeasureName = RSS7title
+X = 15
+Y = #relbartext#
+FontColor = #txtcolor#
+FontSize = #txtsize#
+FontFace = #txtfont#
+StringEffect = #txteffect#
+FontEffectColor = #txteffectcolor#
+AntiAlias = 0
+Prefix = #dotpt#
+ClipString = #CPS#
+ClipStringW = #CPSW#
+ClipStringH = #CPSH#
+
+;------
+
+
+[RSS8linkbutton]
+meter = image
+x = 0
+y = 28r
+h = #clickhovbarH#
+w = #seplinwidth#
+solidcolor =0,0,0,1
+mouseoveraction = [!SetOption #CURRENTSECTION# solidcolor #hoverbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]
+mouseleaveaction = [!SetOption #CURRENTSECTION# solidcolor 0,0,0,1][!Updatemeter #CURRENTSECTION# ][!Redraw]
+leftmousedownaction = [!SetOption #CURRENTSECTION# solidcolor #clickbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]
+leftmouseupaction = [!SetOption #CURRENTSECTION# solidcolor #hoverbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]["#eVIEWER#"  "[RSS8link]]"
+
+
+[RSS8String]
+Meter = STRING
+MeasureName = RSS8title
+X = 15
+Y = #relbartext#
+FontColor = #txtcolor#
+FontSize = #txtsize#
+FontFace = #txtfont#
+StringEffect = #txteffect#
+FontEffectColor = #txteffectcolor#
+AntiAlias = 0
+Prefix = #dotpt#
+ClipString = #CPS#
+ClipStringW = #CPSW#
+ClipStringH = #CPSH#
+
+;------
+
+
+[RSS9linkbutton]
+meter = image
+x = 0
+y = 28r
+h = #clickhovbarH#
+w = #seplinwidth#
+solidcolor =0,0,0,1
+mouseoveraction = [!SetOption #CURRENTSECTION# solidcolor #hoverbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]
+mouseleaveaction = [!SetOption #CURRENTSECTION# solidcolor 0,0,0,1][!Updatemeter #CURRENTSECTION# ][!Redraw]
+leftmousedownaction = [!SetOption #CURRENTSECTION# solidcolor #clickbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]
+leftmouseupaction = [!SetOption #CURRENTSECTION# solidcolor #hoverbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]["#eVIEWER#"  "[RSS9link]]"
+
+
+[RSS9String]
+Meter = STRING
+MeasureName = RSS9title
+X = 15
+Y = #relbartext#
+FontColor = #txtcolor#
+FontSize = #txtsize#
+FontFace = #txtfont#
+StringEffect = #txteffect#
+FontEffectColor = #txteffectcolor#
+AntiAlias = 0
+Prefix = #dotpt#
+ClipString = #CPS#
+ClipStringW = #CPSW#
+ClipStringH = #CPSH#
+
+;------
+
+
+[RSS10linkbutton]
+meter = image
+x = 0
+y = 28r
+h = #clickhovbarH#
+w = #seplinwidth#
+solidcolor =0,0,0,1
+mouseoveraction = [!SetOption #CURRENTSECTION# solidcolor #hoverbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]
+mouseleaveaction = [!SetOption #CURRENTSECTION# solidcolor 0,0,0,1][!Updatemeter #CURRENTSECTION# ][!Redraw]
+leftmousedownaction = [!SetOption #CURRENTSECTION# solidcolor #clickbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]
+leftmouseupaction = [!SetOption #CURRENTSECTION# solidcolor #hoverbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]["#eVIEWER#"  "[RSS10link]]"
+
+
+[RSS10String]
+Meter = STRING
+MeasureName = RSS10title
+X = 15
+Y = #relbartext#
+FontColor = #txtcolor#
+FontSize = #txtsize#
+FontFace = #txtfont#
+StringEffect = #txteffect#
+FontEffectColor = #txteffectcolor#
+AntiAlias = 0
+Prefix = #dotpt#
+ClipString = #CPS#
+ClipStringW = #CPSW#
+ClipStringH = #CPSH#
+
+;------
+
+
+[RSS11linkbutton]
+meter = image
+x = 0
+y = 28r
+h = #clickhovbarH#
+w = #seplinwidth#
+solidcolor =0,0,0,1
+mouseoveraction = [!SetOption #CURRENTSECTION# solidcolor #hoverbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]
+mouseleaveaction = [!SetOption #CURRENTSECTION# solidcolor 0,0,0,1][!Updatemeter #CURRENTSECTION# ][!Redraw]
+leftmousedownaction = [!SetOption #CURRENTSECTION# solidcolor #clickbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]
+leftmouseupaction = [!SetOption #CURRENTSECTION# solidcolor #hoverbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]["#eVIEWER#"  "[RSS11link]]"
+
+
+[RSS11String]
+Meter = STRING
+MeasureName = RSS11title
+X = 15
+Y = #relbartext#
+FontColor = #txtcolor#
+FontSize = #txtsize#
+FontFace = #txtfont#
+StringEffect = #txteffect#
+FontEffectColor = #txteffectcolor#
+AntiAlias = 0
+Prefix = #dotpt#
+ClipString = #CPS#
+ClipStringW = #CPSW#
+ClipStringH = #CPSH#
+
+;------
+
+
+[RSS12linkbutton]
+meter = image
+x = 0
+y = 28r
+h = #clickhovbarH#
+w = #seplinwidth#
+solidcolor =0,0,0,1
+mouseoveraction = [!SetOption #CURRENTSECTION# solidcolor #hoverbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]
+mouseleaveaction = [!SetOption #CURRENTSECTION# solidcolor 0,0,0,1][!Updatemeter #CURRENTSECTION# ][!Redraw]
+leftmousedownaction = [!SetOption #CURRENTSECTION# solidcolor #clickbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]
+leftmouseupaction = [!SetOption #CURRENTSECTION# solidcolor #hoverbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]["#eVIEWER#"  "[RSS12link]]"
+
+
+[RSS12String]
+Meter = STRING
+MeasureName = RSS12title
+X = 15
+Y = #relbartext#
+FontColor = #txtcolor#
+FontSize = #txtsize#
+FontFace = #txtfont#
+StringEffect = #txteffect#
+FontEffectColor = #txteffectcolor#
+AntiAlias = 0
+Prefix = #dotpt#
+ClipString = #CPS#
+ClipStringW = #CPSW#
+ClipStringH = #CPSH#
+
+;------
+
+
+[RSS13linkbutton]
+meter = image
+x = 0
+y = 28r
+h = #clickhovbarH#
+w = #seplinwidth#
+solidcolor =0,0,0,1
+mouseoveraction = [!SetOption #CURRENTSECTION# solidcolor #hoverbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]
+mouseleaveaction = [!SetOption #CURRENTSECTION# solidcolor 0,0,0,1][!Updatemeter #CURRENTSECTION# ][!Redraw]
+leftmousedownaction = [!SetOption #CURRENTSECTION# solidcolor #clickbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]
+leftmouseupaction = [!SetOption #CURRENTSECTION# solidcolor #hoverbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]["#eVIEWER#"  "[RSS13link]]"
+
+
+[RSS13String]
+Meter = STRING
+MeasureName = RSS13title
+X = 15
+Y = #relbartext#
+FontColor = #txtcolor#
+FontSize = #txtsize#
+FontFace = #txtfont#
+StringEffect = #txteffect#
+FontEffectColor = #txteffectcolor#
+AntiAlias = 0
+Prefix = #dotpt#
+ClipString = #CPS#
+ClipStringW = #CPSW#
+ClipStringH = #CPSH#
+
+;------
+
+
+[RSS14linkbutton]
+meter = image
+x = 0
+y = 28r
+h = #clickhovbarH#
+w = #seplinwidth#
+solidcolor =0,0,0,1
+mouseoveraction = [!SetOption #CURRENTSECTION# solidcolor #hoverbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]
+mouseleaveaction = [!SetOption #CURRENTSECTION# solidcolor 0,0,0,1][!Updatemeter #CURRENTSECTION# ][!Redraw]
+leftmousedownaction = [!SetOption #CURRENTSECTION# solidcolor #clickbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]
+leftmouseupaction = [!SetOption #CURRENTSECTION# solidcolor #hoverbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]["#eVIEWER#"  "[RSS14link]]"
+
+
+[RSS14String]
+Meter = STRING
+MeasureName = RSS14title
+X = 15
+Y = #relbartext#
+FontColor = #txtcolor#
+FontSize = #txtsize#
+FontFace = #txtfont#
+StringEffect = #txteffect#
+FontEffectColor = #txteffectcolor#
+AntiAlias = 0
+Prefix = #dotpt#
+ClipString = #CPS#
+ClipStringW = #CPSW#
+ClipStringH = #CPSH#
+
+;------
+
+
+[RSS15linkbutton]
+meter = image
+x = 0
+y = 28r
+h = #clickhovbarH#
+w = #seplinwidth#
+solidcolor =0,0,0,1
+mouseoveraction = [!SetOption #CURRENTSECTION# solidcolor #hoverbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]
+mouseleaveaction = [!SetOption #CURRENTSECTION# solidcolor 0,0,0,1][!Updatemeter #CURRENTSECTION# ][!Redraw]
+leftmousedownaction = [!SetOption #CURRENTSECTION# solidcolor #clickbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]
+leftmouseupaction = [!SetOption #CURRENTSECTION# solidcolor #hoverbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]["#eVIEWER#"  "[RSS15link]]"
+
+
+[RSS15String]
+Meter = STRING
+MeasureName = RSS15title
+X = 15
+Y = #relbartext#
+FontColor = #txtcolor#
+FontSize = #txtsize#
+FontFace = #txtfont#
+StringEffect = #txteffect#
+FontEffectColor = #txteffectcolor#
+AntiAlias = 0
+Prefix = #dotpt#
+ClipString = #CPS#
+ClipStringW = #CPSW#
+ClipStringH = #CPSH#
+
+;------
+
+
+[RSS16linkbutton]
+meter = image
+x = 0
+y = 28r
+h = #clickhovbarH#
+w = #seplinwidth#
+solidcolor =0,0,0,1
+mouseoveraction = [!SetOption #CURRENTSECTION# solidcolor #hoverbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]
+mouseleaveaction = [!SetOption #CURRENTSECTION# solidcolor 0,0,0,1][!Updatemeter #CURRENTSECTION# ][!Redraw]
+leftmousedownaction = [!SetOption #CURRENTSECTION# solidcolor #clickbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]
+leftmouseupaction = [!SetOption #CURRENTSECTION# solidcolor #hoverbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]["#eVIEWER#"  "[RSS16link]]"
+
+
+[RSS16String]
+Meter = STRING
+MeasureName = RSS16title
+X = 15
+Y = #relbartext#
+FontColor = #txtcolor#
+FontSize = #txtsize#
+FontFace = #txtfont#
+StringEffect = #txteffect#
+FontEffectColor = #txteffectcolor#
+AntiAlias = 0
+Prefix = #dotpt#
+ClipString = #CPS#
+ClipStringW = #CPSW#
+ClipStringH = #CPSH#
+
+;------
+
+
+[RSS17linkbutton]
+meter = image
+x = 0
+y = 28r
+h = #clickhovbarH#
+w = #seplinwidth#
+solidcolor =0,0,0,1
+mouseoveraction = [!SetOption #CURRENTSECTION# solidcolor #hoverbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]
+mouseleaveaction = [!SetOption #CURRENTSECTION# solidcolor 0,0,0,1][!Updatemeter #CURRENTSECTION# ][!Redraw]
+leftmousedownaction = [!SetOption #CURRENTSECTION# solidcolor #clickbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]
+leftmouseupaction = [!SetOption #CURRENTSECTION# solidcolor #hoverbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]["#eVIEWER#"  "[RSS17link]]"
+
+
+[RSS17String]
+Meter = STRING
+MeasureName = RSS17title
+X = 15
+Y = #relbartext#
+FontColor = #txtcolor#
+FontSize = #txtsize#
+FontFace = #txtfont#
+StringEffect = #txteffect#
+FontEffectColor = #txteffectcolor#
+AntiAlias = 0
+Prefix = #dotpt#
+ClipString = #CPS#
+ClipStringW = #CPSW#
+ClipStringH = #CPSH#
+
+;------
+
+
+[RSS18linkbutton]
+meter = image
+x = 0
+y = 28r
+h = #clickhovbarH#
+w = #seplinwidth#
+solidcolor =0,0,0,1
+mouseoveraction = [!SetOption #CURRENTSECTION# solidcolor #hoverbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]
+mouseleaveaction = [!SetOption #CURRENTSECTION# solidcolor 0,0,0,1][!Updatemeter #CURRENTSECTION# ][!Redraw]
+leftmousedownaction = [!SetOption #CURRENTSECTION# solidcolor #clickbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]
+leftmouseupaction = [!SetOption #CURRENTSECTION# solidcolor #hoverbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]["#eVIEWER#"  "[RSS18link]]"
+
+
+[RSS18String]
+Meter = STRING
+MeasureName = RSS18title
+X = 15
+Y = #relbartext#
+FontColor = #txtcolor#
+FontSize = #txtsize#
+FontFace = #txtfont#
+StringEffect = #txteffect#
+FontEffectColor = #txteffectcolor#
+AntiAlias = 0
+Prefix = #dotpt#
+ClipString = #CPS#
+ClipStringW = #CPSW#
+ClipStringH = #CPSH#
+
+;------
+
+
+[RSS19linkbutton]
+meter = image
+x = 0
+y = 28r
+h = #clickhovbarH#
+w = #seplinwidth#
+solidcolor =0,0,0,1
+mouseoveraction = [!SetOption #CURRENTSECTION# solidcolor #hoverbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]
+mouseleaveaction = [!SetOption #CURRENTSECTION# solidcolor 0,0,0,1][!Updatemeter #CURRENTSECTION# ][!Redraw]
+leftmousedownaction = [!SetOption #CURRENTSECTION# solidcolor #clickbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]
+leftmouseupaction = [!SetOption #CURRENTSECTION# solidcolor #hoverbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]["#eVIEWER#"  "[RSS19link]]"
+
+
+[RSS19String]
+Meter = STRING
+MeasureName = RSS19title
+X = 15
+Y = #relbartext#
+FontColor = #txtcolor#
+FontSize = #txtsize#
+FontFace = #txtfont#
+StringEffect = #txteffect#
+FontEffectColor = #txteffectcolor#
+AntiAlias = 0
+Prefix = #dotpt#
+ClipString = #CPS#
+ClipStringW = #CPSW#
+ClipStringH = #CPSH#
+
+;------
+
+
+[RSS20linkbutton]
+meter = image
+x = 0
+y = 28r
+h = #clickhovbarH#
+w = #seplinwidth#
+solidcolor =0,0,0,1
+mouseoveraction = [!SetOption #CURRENTSECTION# solidcolor #hoverbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]
+mouseleaveaction = [!SetOption #CURRENTSECTION# solidcolor 0,0,0,1][!Updatemeter #CURRENTSECTION# ][!Redraw]
+leftmousedownaction = [!SetOption #CURRENTSECTION# solidcolor #clickbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]
+leftmouseupaction = [!SetOption #CURRENTSECTION# solidcolor #hoverbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]["#eVIEWER#"  "[RSS20link]]"
+
+
+[RSS20String]
+Meter = STRING
+MeasureName = RSS20title
+X = 15
+Y = #relbartext#
+FontColor = #txtcolor#
+FontSize = #txtsize#
+FontFace = #txtfont#
+StringEffect = #txteffect#
+FontEffectColor = #txteffectcolor#
+AntiAlias = 0
+Prefix = #dotpt#
+ClipString = #CPS#
+ClipStringW = #CPSW#
+ClipStringH = #CPSH#
+
+;------
+
+
+[RSS21linkbutton]
+meter = image
+x = 0
+y = 28r
+h = #clickhovbarH#
+w = #seplinwidth#
+solidcolor =0,0,0,1
+mouseoveraction = [!SetOption #CURRENTSECTION# solidcolor #hoverbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]
+mouseleaveaction = [!SetOption #CURRENTSECTION# solidcolor 0,0,0,1][!Updatemeter #CURRENTSECTION# ][!Redraw]
+leftmousedownaction = [!SetOption #CURRENTSECTION# solidcolor #clickbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]
+leftmouseupaction = [!SetOption #CURRENTSECTION# solidcolor #hoverbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]["#eVIEWER#"  "[RSS21link]]"
+
+
+[RSS21String]
+Meter = STRING
+MeasureName = RSS21title
+X = 15
+Y = #relbartext#
+FontColor = #txtcolor#
+FontSize = #txtsize#
+FontFace = #txtfont#
+StringEffect = #txteffect#
+FontEffectColor = #txteffectcolor#
+AntiAlias = 0
+Prefix = #dotpt#
+ClipString = #CPS#
+ClipStringW = #CPSW#
+ClipStringH = #CPSH#
+
+;------
+
+
+[RSS22linkbutton]
+meter = image
+x = 0
+y = 28r
+h = #clickhovbarH#
+w = #seplinwidth#
+solidcolor =0,0,0,1
+mouseoveraction = [!SetOption #CURRENTSECTION# solidcolor #hoverbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]
+mouseleaveaction = [!SetOption #CURRENTSECTION# solidcolor 0,0,0,1][!Updatemeter #CURRENTSECTION# ][!Redraw]
+leftmousedownaction = [!SetOption #CURRENTSECTION# solidcolor #clickbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]
+leftmouseupaction = [!SetOption #CURRENTSECTION# solidcolor #hoverbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]["#eVIEWER#"  "[RSS22link]]"
+
+
+[RSS22String]
+Meter = STRING
+MeasureName = RSS22title
+X = 15
+Y = #relbartext#
+FontColor = #txtcolor#
+FontSize = #txtsize#
+FontFace = #txtfont#
+StringEffect = #txteffect#
+FontEffectColor = #txteffectcolor#
+AntiAlias = 0
+Prefix = #dotpt#
+ClipString = #CPS#
+ClipStringW = #CPSW#
+ClipStringH = #CPSH#
+
+;------
+
+
+[RSS23linkbutton]
+meter = image
+x = 0
+y = 28r
+h = #clickhovbarH#
+w = #seplinwidth#
+solidcolor =0,0,0,1
+mouseoveraction = [!SetOption #CURRENTSECTION# solidcolor #hoverbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]
+mouseleaveaction = [!SetOption #CURRENTSECTION# solidcolor 0,0,0,1][!Updatemeter #CURRENTSECTION# ][!Redraw]
+leftmousedownaction = [!SetOption #CURRENTSECTION# solidcolor #clickbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]
+leftmouseupaction = [!SetOption #CURRENTSECTION# solidcolor #hoverbarcolor#][!Updatemeter #CURRENTSECTION#][!Redraw]["#eVIEWER#"  "[RSS23link]]"
+
+
+[RSS23String]
+Meter = STRING
+MeasureName = RSS23title
+X = 15
+Y = #relbartext#
+FontColor = #txtcolor#
+FontSize = #txtsize#
+FontFace = #txtfont#
+StringEffect = #txteffect#
+FontEffectColor = #txteffectcolor#
+AntiAlias = 0
+Prefix = #dotpt#
+ClipString = #CPS#
+ClipStringW = #CPSW#
+ClipStringH = #CPSH#
+
+;------
+
