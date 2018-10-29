@@ -4,6 +4,10 @@ Rainmeter custom layout for triple screen configurations
 
 ---
 
+### Preview
+
+![file table](https://blog.gcauvet-dev.com/img/27/preview-rainmeter-triple-desktop.png "file table")
+
 ### How to ?
 
 Simply double click the Triple screen_1.0.rmskin in the root folder.
