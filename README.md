@@ -31,4 +31,4 @@ Those files are provided as backup in case anything goes wrong durring the insta
 
 ---
 
-2018 - Gcauvet https://gcauvet-dev.com/
+2019 - Smaha https://smaha-consulting.com
