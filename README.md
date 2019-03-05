@@ -6,7 +6,7 @@ Rainmeter custom layout for triple screen configurations
 
 ### Preview
 
-![file table](https://blog.gcauvet-dev.com/img/27/preview-rainmeter-triple-desktop.png "file table")
+![file table](https://www.smaha-consulting.com/wp-content/uploads/2019/03/preview.png "file table")
 
 ### How to ?
 
